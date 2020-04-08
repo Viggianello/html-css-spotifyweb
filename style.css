@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+i{
+    cursor: pointer;
+}
+
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+
+}
+
+aside{
+    background-color: black;
+    width: 15%;
+    float: left;
+    display: flex;
+    color: white;
+    height: 88vh;
+}
+
+main{
+    background-color: darkgreen;
+    display: flex;
+    height: 88vh;
+    width: 85%;
+}
+
+footer{
+    background-color: grey;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    height: 12vh;
+}
+
+/*
+
+
+header{
+    height: 50px;
+    text-align: right;
+}
+
+header button{
+    margin-right: 5px;
+    margin-top: 5px;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #333;
+}
+
+main{
+    height: calc(100vh - 130px);
+    position: relative;
+}
+
+.text-center{
+    color: white;
+    position: absolute;
+    top: 50%;
+}
+
+.right{
+    right:0;
+    padding-right: 2px;
+}
+
+.green{
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: black;
+}
+
+.text-center i{
+    color: grey;
+    padding-bottom: 10px;
+}
+
+.galleria-persone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow-y: auto;
+    padding: 20px 0;
+}
+
+.persona{
+    width: 250px;
+    height: 150px;
+    border: 2px solid black;
+    background-color: green;
+    position: relative;
+}
+
+.nome{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.4);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 80%;
+}
+
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left{
+    flex-shrink: 0;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+
+p{
+    white-space: nowrap;
+    position: absolute;
+    bottom: 2px;
+    font-size: 15px;
+}
+
+i, p{
+    color: white;
+}
+
+.footer-center{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-right{
+    flex-shrink: 0;
+    width: 150px;
+    background-color: yellow;
+}
+
+.footer-right button{
+    color: red;
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    border: 0;
+    line-height: 80px;
+    cursor: pointer;
+} */
