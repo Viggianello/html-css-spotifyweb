@@ -114,11 +114,24 @@ main{
     width: calc(100% - 200px);
     flex-direction: column;
     padding: 10px 120px;
+    color: white;
 }
 
 header{
     height: 17%;
     width: 100%;
+}
+
+header ul{
+    width: 70%;
+    margin: auto;
+    list-style-type: none;
+    color: inherit;
+    color: grey;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .centro{
