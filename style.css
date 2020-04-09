@@ -14,6 +14,10 @@ a{
     padding-bottom: 10px;
 }
 
+.border-black{
+    border: 1px solid black;
+}
+
 .small{
     font-size: 10px;
 }
@@ -36,14 +40,25 @@ a{
 
 .img-responsive{
     max-width: 100%;
-    height: auto;
     height: 150px;
 }
 
-/* .circle{
+.mar{
+    margin-right: 30px;
+}
+
+.marm{
+    margin-right: 40px;
+}
+
+.circle{
     border-radius: 100%;
     height: 200px;
-} */
+}
+
+.nopdbot{
+    padding-bottom: 0;
+}
 
 .container{
     width: 100%;
@@ -52,11 +67,11 @@ a{
 
 aside{
     background-color: black;
-    width: 200px;
+    width: 160px;
     float: left;
     display: flex;
     color: gray;
-    height: calc(100% - 80px);
+    height: calc(100% - 60px);
     flex-direction: column;
     padding: 10px;
 }
@@ -116,7 +131,9 @@ aside{
 }
 
 hr{
+    margin-top: 10px;
     margin-bottom: 10px;
+    width: 100%;
 }
 
  .bottom i:last-child{
@@ -126,11 +143,13 @@ hr{
 main{
     background-color: darkgreen;
     display: flex;
-    height: calc(100% - 80px);
-    width: calc(100% - 200px);
+    height: calc(100% - 60px);
+    width: calc(100% - 160px);
     flex-direction: column;
     padding: 10px 120px;
     color: white;
+    overflow-y: auto;
+
 }
 
 header{
@@ -162,7 +181,11 @@ h1{
 
 .centro.wrap-row{
     align-items: flex-start;
-    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.centro.wrap-row p{
+    padding-top: 7px;
 }
 
 footer{
@@ -171,7 +194,7 @@ footer{
     display: flex;
     justify-content: flex-end;
     color: white;
-    height: 80px;
+    height: 60px;
     padding: 10px;
 }
 
@@ -183,13 +206,40 @@ footer{
 .controller{
     width: 60%;
     height: 100%;
-    padding: 10px 120px;
+    padding: 0 120px;
+    display: flex;
+    flex-direction: column;
 }
 
+.wrap-row-fot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cont-cerchio{
+    position: relative;
+}
+
+.wrap-row-fot #cerchio{
+    position: absolute;
+    right: 50%;
+    font-size: 10px;
+    padding-top: 6px;
+}
+
+span{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+#cerchio hr{
+    width: 70%
+}
+
+
+
 /*
-
-
-
 
 main{
     height: calc(100vh - 130px);
