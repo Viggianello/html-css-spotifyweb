@@ -37,12 +37,13 @@ a{
 .img-responsive{
     max-width: 100%;
     height: auto;
+    height: 150px;
 }
 
-.circle{
+/* .circle{
     border-radius: 100%;
     height: 200px;
-}
+} */
 
 .container{
     width: 100%;
@@ -61,7 +62,11 @@ aside{
 }
 
 .logo{
-    height: 17%;
+    height: 8%;
+}
+
+.logo i{
+    font-size: 30px;
 }
 
 .logo p{
@@ -70,8 +75,9 @@ aside{
 }
 
 .menu{
-    height: 66%;
+    height: 75%;
     color: gray;
+    padding-top: 20px;
 }
 
 .wrap-row{
@@ -128,8 +134,11 @@ main{
 }
 
 header{
-    height: 17%;
+    height: 6%;
     width: 100%;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
 }
 
 header ul{
@@ -141,14 +150,19 @@ header ul{
     justify-content: space-around;
 }
 
-#h1{
-    display: flex;
-    align-items: flex-start;
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .centro{
     width: 100%;
-    height: 83%;
+    height: 94%;
+}
+
+.centro.wrap-row{
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 footer{
