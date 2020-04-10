@@ -140,8 +140,8 @@ hr{
     width: 100%;
 }
 
- .bottom i:last-child{
-     font-size: 20px;
+ .mis{
+     font-size: 27px;
  }
 
 main{
@@ -197,7 +197,7 @@ footer{
     background-color: #333;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     color: white;
     height: 60px;
     padding: 10px;
@@ -223,7 +223,8 @@ footer{
 }
 
 .info.left i{
-    padding-left: 30px;
+    padding-left: 12.6%;
+    /* padding-left: 30px; */
 }
 
 .controller{
@@ -296,6 +297,7 @@ footer{
 
 .tablet{
     font-size: 30px;
+    padding: 10px;
 }
 
 @media screen and (min-width: 960px) {
@@ -303,54 +305,65 @@ footer{
         display: none;
     }
 }
-
+/* modifiche schermo tablet */
 @media screen and (max-width: 959px) {
-    .header{
+    .header,.info.left p{
         display: none;
     }
+
+    .mar{
+        margin-right: 10px;
+    }
+}
+/* modifiche schermo phone */
+@media screen and (max-width: 480px) {
+
+    .phone, .info.right, .today{
+        display: none;
+    }
+
+    h1{
+        padding: 10px;
+    }
+    
+    hr{
+        width: 40%;
+    }
+    aside{
+        width: 80px;
+    }
+
+    main{
+        width: calc(100% - 80px);
+        padding: 0;
+    }
+
+    main img{
+        padding-left: 10px;
+    }
+
+    main p{
+        padding-bottom: 20px;
+    }
+
+    .info{
+        width: 80px;
+    }
+
+    .controller {
+        width: calc(100% - 80px);
+        padding-left: 10px;
+        padding-right: 0;
+    }
+
+    .linea{
+        width: 100%;
+    }
+
 }
 
 
 /*
-
-main{
-    height: calc(100vh - 130px);
-    position: relative;
-}
-
-.text-center{
-    color: white;
-    position: absolute;
-    top: 50%;
-}
-
-.right{
-    right:0;
-    padding-right: 2px;
-}
-
-.green{
-    background-color: green;
-    padding: 5px 10px;
-    border-radius: 4px;
-    color: black;
-}
-
-.text-center i{
-    color: grey;
-    padding-bottom: 10px;
-}
-
-.galleria-persone{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    overflow-y: auto;
-    padding: 20px 0;
-}
-
 .persona{
     width: 250px;
     height: 150px;
@@ -372,12 +385,6 @@ main{
     max-width: 80%;
 }
 
-footer{
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-}
-
 .footer-left{
     flex-shrink: 0;
     width: 200px;
@@ -394,14 +401,6 @@ footer{
     height: 100%;
     position: relative;
 }
-
-p{
-    white-space: nowrap;
-    position: absolute;
-    bottom: 2px;
-    font-size: 15px;
-}
-
 
 .footer-center{
     width: 1200px;
